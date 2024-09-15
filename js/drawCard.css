@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.character {
+  margin: 10px;
+}
+
+.character img {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 200px;
+  height: 75px;
+  font-size: 23px;
+  font-family: Microsoft JhengHei;
+  margin: 5px;
+}
+
+

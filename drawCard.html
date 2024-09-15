@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Draw Card</title>
+  <link rel="stylesheet" href="drawCard.css">
+</head>
+<body>
+<div style="text-align:center"><h1>誰是大撒幣</h1></div>
+<div style="text-align:center"><h2>角色</h2></div>
+  <div class="container">
+    <div class="character">
+    <h3><p>太玄啦否希1%</p></h3>
+      <img src="img/5.jpg" alt="Character" width="200px" height="200px">
+    </div>
+
+    <div class="character">
+        <h3><p>習撒幣4%</p></h3>
+      <img src="img/1.jpg" alt="Character" width="200px" height="200px">
+    </div>
+
+    <div class="character">
+        <h3><p>蔡英九5%</p></h3>
+      <img src="img/2.jpg" alt="Character" width="200px" height="200px">
+    </div>
+
+    <div class="character">
+        <h3><p>賴龜龜40%</p></h3>
+      <img src="img/3.jpg" alt="Character" width="200px" height="200px"> 
+    </div>
+
+    <div class="character">
+        <h3><p>核彈吃到飽50%</p></h3>
+      <img src="img/4.jpg" alt="Character" width="200px" height="200px">
+      
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button onclick="one()">單抽</button>
+    <button onclick="ten()">十抽</button>
+    <button onclick="addFunds()">新增大撒幣</button>
+  </div>
+
+  <div id="congrats"></div>
+  <p id="demo"></p>
+  <p id="count"></p>
+
+  <script src="drawCard.js"></script>
+</body>
+</html>
